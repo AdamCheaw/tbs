@@ -1,0 +1,344 @@
+/* ------- base ------- */
+body{
+	background-color:#FFF;
+	color: #FFF;
+	font-family:  Microsoft JhengHei ;
+}
+h1,h2,p,span,li {
+	font-family:  Microsoft JhengHei ;
+}
+body, ul, li, div {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration:none;
+}
+#wrapper
+{
+	background-color:#f2f2f2;
+	width:100%;
+	height:auto;
+	margin:auto;
+	min-width: 1200px;
+	overflow:visible;
+	font-family:  Microsoft JhengHei ;
+}
+#tradeRecord .sign
+{
+	position:relative;
+	margin-right:5px;
+	width:12px;
+	height:12px;
+	top:-1;
+}
+#tradeRecord .rated
+{
+	position:relative;
+	margin-right:5px;
+	top:-2;
+}
+.circle_check
+{
+	position:relative;
+	margin-right:5px;
+}
+#tradeRecord .post
+{
+	background-color:#f2f2f2;
+}
+#beRequest
+{
+	
+	border-left:1px solid #d9d9d9;
+	border-right:1px solid #d9d9d9;
+}
+#myDemand th, #myDemand td, #beRequest th, #beRequest td, #beProvide th, #beProvide td, #myWanted th, #myWanted td{
+	
+
+}
+#supplyRecord .content{/*border:1px solid black;*/}
+#supplyRecord .content .tab{float:left;margin:0px 20px;}
+#supplyRecord .content .menu_list{margin:10px 0 10px 0px;border:1px solid #d9d9d9;width:150px;height:30px; font-size:15pt;font-family:  Microsoft JhengHei ;padding-left:10px;padding-bottom:8px;color:white;font-weight:bold}
+#supplyRecord .content .menu_list img{float:left;position:relative;width:25px;height:25px;left:5;top:7}
+#supplyRecord .content .menu_list p{font-family:  Microsoft JhengHei ;float:left;color:white;}
+#supplyRecord .content .list_table{width:400px;border:1px solid #d9d9d9;border-collapse:collapse;margin-right:20px;}
+#supplyRecord .DemandRd {background:#666699;}
+#supplyRecord .SupplyRd {background:#668c99;}
+.list_table th{border-left:1px solid #ddd;padding:2px 5px;font-size:15pt;font-weight:bold;color:white;}
+.list_table td{padding:2px 3px;border:1px solid #d9d9d9;font-size:13pt;background-color:white;}
+#supplyRecord .content #body_list{margin:10px auto;border:1px solid red;padding:5px;width:550px;height:auto;float:left;}
+#supplyRecord .content .record{border-top:1px solid black;width:500px;height:auto;float:left;padding:8px;}
+#supplyRecord .record .r_img{width:170px;height:150px;float:left;}
+#supplyRecord .record .info{float:left;}
+.record .r_img img{width:170px;height:150px;}
+#myDemand, #beRequest, #beProvide, #myWanted{
+	width:650px;
+	margin-bottom: 20px;
+	font-size:18px;
+	line-height: 30px;
+	margin-left:-29px;
+}
+#myDemand td{
+	background-color: white;
+} 
+#beRequest td, #beProvide td, #myWanted td{
+	border-bottom:1px solid #f2f2f2;
+	padding:3px 0 3px 20px;
+	background-color:white;
+	border-bottom:1px solid #d9d9d9;
+	font-size:17px;
+}
+#beRequest td a, #beProvide td a, #myWanted td a
+{
+	color:#736699;
+	font-size:17px;
+}
+#myDemand th{
+	background-color: #666699;
+}
+#beRequest th{
+	background-color: #668c99;
+	padding:5px 0 5px 0;
+	font-size:17pt;
+	font-weight:900;
+	color:white;
+	padding-left:18px;
+}
+#beRequest td
+{padding-left:20px;}
+
+#beProvide th{
+	background-color: #666699;
+	padding:5px 0 5px 0;
+	font-size:17pt;
+	font-weight:900;
+	color:white;
+	padding-left:18px;
+}
+#myWanted th{
+	background-color: #806699;
+	padding:5px 0 5px 0;
+	font-size:17pt;
+	font-weight:900;
+	color:white;
+	padding-left:18px;
+}
+.emailReply{
+	float:right;
+	background-color:#ffdd99;
+	border-radius: 5px;
+	margin: 5px 0 5px 0;
+}
+.emailReply a{
+	color:white;
+	font-weight: bold;
+}
+.tradeInputNumber{
+	border:1px solid black;
+	border-radius:5px;
+	width: 60px;
+	color:black;
+	text-align:center;
+	font-size:18px;
+}
+
+.tinBtnyes {
+	
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+	font-size:100pt;
+	height:30px;
+	background-color:#3956ac;
+	border:1px solid #3956ac;
+}
+.tinBtnno{
+	
+	border-radius: 2px;
+	color:white;
+	font-weight: bold;
+	font-size:100pt;
+	height:30px;
+	background-color:#ac3939;
+	border:1px solid #ac3939;
+}
+.tradeBtn{
+	background-color:#b3d9ff;
+	border-radius: 5px;
+	margin: 5px 0 5px 0;
+	height:30px;
+}
+.tradeBtn a{
+	color:white;
+	font-size:16px;
+	font-weight: bold;
+}
+.a-upload
+{
+	position:relative;
+	cursor:pointer;
+	text-align:center;
+	width:	190px;
+	font-size:15pt;
+	margin: 0 0 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #b3b3b3;
+	background-color: white;
+	color:#262626;
+	margin-bottom:10px;
+	margin-left:150px;
+}
+ #upload-button
+{
+	font-size:15pt;
+	display: block;
+	width:	300px;
+	text-align:center;
+	margin: 0 0 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #b3b3b3;
+	background-color: white;
+	color:#262626;
+	margin-bottom:10px;
+	margin-right:200px;
+}
+#mainNavigation li
+{
+	font-family:  Microsoft JhengHei ;
+	font-size:13pt;
+	color:#1a1a1a;
+	list-style: none;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+#mainNavigation li a
+{
+	color:#595959;
+}
+#pic-form
+{
+	border:1px solid #b3b3b3;
+	width:80%;
+	margin-bottom:10px;
+	height:300px;
+	background-color:white;
+}
+#entry-contentContainer
+{
+	border:1px solid black;
+	width:50%;
+	height:300px;
+	float:left;
+	margin-top:10px;
+}
+.topic
+{
+	background-color:#d1e0e0;
+}
+.topic h2
+{
+	margin-top:0;
+	padding-top:12px;
+	margin-bottom:-15px;
+	color:#595959;
+	font-size:15pt;
+	margin-left:10px;
+}
+#content-form
+{
+	border:1px solid #b3b3b3;
+	width:80%;
+	color:black;
+	margin-bottom:10px;
+	background-color:white;
+}
+#edit-form table
+{
+	color:black;
+	margin-left:30px;
+	margin-top:10px;
+}
+#edit-form table .label
+{
+	font-size:13pt;
+	font-family:Microsoft JhengHei ;
+	text-align:right;
+	margin-right:10px;
+}
+#edit-form table .col-6
+{
+	border:1px solid darkgray;
+	font-size:13pt;
+	border-radius:3px;
+	height:35px;
+	width:250px;
+}
+#edit-form table .introduce
+{
+	vertical-align:top;
+}
+#edit-form table .col-9
+{
+	border:1px solid darkgray;
+	font-size:13pt;
+	border-radius:3px;
+	height:100px;
+	width:400px;
+	vertical-align:top;
+}
+#edit-form table .right
+{
+	text-align:right;
+}
+#form3
+{
+	border:1px solid #b3b3b3;
+	width:80%;
+	color:black;
+	background-color:white;
+}
+#pic
+{
+	float:left;
+	width:25%;
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+#pic img
+{
+	height:180px;
+	width:200px;
+}
+#form-control #content
+{
+	
+	float:right;
+	color:black;
+	width:60%;
+	margin-right:50px;
+	
+}
+#edit-form
+{
+	position:relative;
+	margin-left:30;
+	
+}
+#edit-form #button
+{
+	border:1px solid #75a3a3;
+	background:#75a3a3;
+	color:white;
+	width:100px;
+	height:45px;
+	font-size:15pt;
+	border-radius:5px;
+	
+	margin-top:20px;
+}

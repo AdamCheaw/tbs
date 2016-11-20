@@ -1,0 +1,119 @@
+/*
+Skin Name: Nivo Slider theme1203
+Skin URI: http://www.solagirl.net
+Version: 1.0
+Author: ThemeForest
+Author URI: http://themeforest.net/item/mindset-html-portfolio-magazine-template/full_screen_preview/110789
+*/
+.theme-theme1204 {
+	height: 380px;
+    margin: 0px auto ;
+    padding: 0;
+    position: relative;
+    width: 800px;
+	
+}
+.theme-theme1204 .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat center ;
+	
+    margin-bottom:50px;
+	overflow:hidden;
+}
+/* The slices and boxes in the Slider */
+.theme-theme1204 .nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.theme-theme1204 .nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+
+.theme-theme1204 .nivoSlider img {
+	height: 380px;
+	width:800px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+}
+.theme-theme1204 .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-theme1204 .nivo-controlNav {
+	bottom: 19px;
+    height: 16px;
+    left: 13px;
+    position: absolute;
+    width: 900px;
+}
+.theme-theme1204 .nivo-controlNav a {
+	background: url("slideshow_points.png") no-repeat 0 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block !important;
+    font-size: 0;
+    height: 16px;
+    margin-right: 6px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    width: 16px;
+    z-index: 99;
+}
+.theme-theme1204 .nivo-controlNav a:hover,
+.theme-theme1204 .nivo-controlNav a.active {
+	background-position:0 -16px;
+}
+
+.theme-theme1204 .nivo-directionNav a {
+	display:none;
+}
+.theme-theme1204 a.nivo-nextNav {
+}
+.theme-theme1204 a.nivo-prevNav {
+}
+
+.theme-theme1204 .nivo-caption {
+	background: #000000;
+    color: #FFFFFF;
+	font-family:  Microsoft JhengHei ;
+    height: 211px;
+    left: -450px;
+    padding: 0 50px 0 32px;
+    position: absolute;
+    top: 121px;
+    width: 317px;
+    z-index: 89;
+}
+.theme-theme1204 .nivo-caption a {
+    color:#fff;
+    text-decoration:none;
+}
+.theme-theme1204 .nivo-caption a:hover {
+    color:#fff;
+}
+.theme-theme1204 .nivo-caption p {
+	color:#919293;
+    margin:0;
+	font-size:14pt;
+	font-weight:700;
+	font-family:  Microsoft JhengHei ;
+}
+.theme-theme1204 .nivo-caption h2 {
+    color: #FFFFFF;
+    font-size: 1.85em;
+    line-height: 0.8em;
+    margin-bottom: 0.6em;
+    padding: 10px 0 0;
+}
+.theme-theme1204 .nivo-html-caption {
+	display:none;
+}

@@ -1,0 +1,76 @@
+
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+body {
+	font:14px/1.6 Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	color:#333;
+	background:#eee;
+}
+
+
+
+.slider-wrapper p{font-size:15pt;}
+h1.main-title {
+	color:black;
+	font-size:3em;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	float:left;
+	margin-left:25px;
+	padding-bottom:0;
+	margin-bottom:5px;
+	line-height:2;
+}
+.nivo-thumbnail-box {
+	display:inline-block;
+	float:none;
+	padding: 5px;
+	margin:0 10px 20px 0;
+	vertical-align:top;
+	width:200px;
+}
+#ie7 .nivo-thumbnail-box {
+	display:inline;
+	line-height:150%;
+}
+#ie6 .nivo-thumbnail-box {
+	display:block;
+	height:130px;
+	float:left;
+}
+.nivo-thumbnail {
+	float:none;
+	text-align:center;
+}
+.nivo-thumbnail img {
+	display:inline;
+	border:none;
+}
+.nivo-thumbtitle {
+	margin-top:15px;
+	line-height:1.5;
+	text-align:center;
+}
+.nivo-thumbtitle a {
+	color:#666666;
+	font-size:12px;
+}
+.nivo-thumbtitle a:hover {
+	color:#333333;
+}
+
+#preview{
+	position:absolute; 
+	border:1px solid #000000; 
+	background:#FFFFFF;
+	padding:40px 20px;
+	display:none;
+	color:#000000;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

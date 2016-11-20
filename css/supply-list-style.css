@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+/* ------- base ------- */
+body{
+	background: #FFF;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #000;
+	margin:0;
+}
+h1,h2,p,span,li {
+  font-family: 'Roboto Condensed', Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  
+}
+a{
+	text-decoration:none;
+}
+
+/*.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}*/
+
+#wrapper{
+	min-width: 1400px;
+	overflow: auto;
+	background-color:#f2f2f2;
+}
+#wrapper-inner{
+	margin:0 auto;
+	padding-top:50px;
+}
+#sidebar{
+	margin-left:3%;
+	margin-right:2%;
+	float:left;
+	width:130px;
+	text-align:center;
+	padding:10px 10px;
+	border-radius: 5px;
+	border:1px solid #cccccc;
+	/*box-shadow:1px 1px 3px #6ca1a1;*/
+	background:white;
+	font-family:  Microsoft JhengHei ;
+}
+#sidebar #topic
+{
+	font-family:  Microsoft JhengHei ;
+	font-size:16pt;
+	font-weight:bold;
+	color:#333333;
+}
+#sidebar a{
+	color:white;	
+}
+#sidebar a:hover{
+	color:#c2d6d6;
+}
+
+#sidebar hr{
+	margin:5px 0 0 0;
+	background-color: #cccccc;
+	height: 1px;
+}
+#sidebar div{
+	color: white;
+	line-height:30px;
+	background-color: #6ca1a1;
+	margin-bottom:10px;
+	border-radius: 5px;
+	display:block;
+}
+#sidebar button{
+	color: white;
+	line-height:30px;
+	background-color: #6ca1a1;
+	margin-bottom:10px;
+	border-radius: 5px;
+	display:block;
+	width:100px;
+}
+
+#content{
+	float: left;
+	margin: 0 0 10px 20px;
+	min-width:1000px;
+	max-width: 1000px;
+}
+#content #thisH1{
+	line-height: 0px;
+	width: 300px;
+	padding-left: 10px;
+	border-radius: 7px;
+	/*border-left:5px solid #75a3a3;
+	border-bottom:5px solid #75a3a3;*/
+}
+#ThisFilter{
+	margin-top:10px;
+	float:left;
+	
+}
+#ThisFilter button{
+	border-radius:5px;
+	color:#666699;
+	font-weight: bold;
+}
+#search_box { 
+	/*background:-moz-linear-gradient(top, #ffd73a, #ffa500); 
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffd73a), to(#ffa500));*/
+	/*border:1px solid #d28703;
+	border-radius:5px; 
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px; 
+	-moz-box-shadow:inset 0 1px #ffff90, inset 0 -2px 5px #ffd05d, 0 0 0 4px rgba(255,255,255,0.65);
+	-webkit-box-shadow:inset 0 1px #ffff90, inset 0 -2px 5px #ffd05d, 0 0 0 4px rgba(255,255,255,0.65); */
+	padding:9px;
+	width:300px;
+	float:left;
+	
+}
+
+#search_box .search-wrapper { 
+	background:#fff; 
+	border:3px solid #668c99;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	/*-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,.3), 0 1px #ff0; 
+	-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.3), 0 1px #ff0; */
+	height:40px;
+	padding-left:10px; 
+	position:relative;
+}
+
+#search_box input,
+#search_box input:focus { border:none; color:#333; outline:none; font:bold 24px Helvetica, Arial, sans-serif; margin:5px 0; width:240px; }
+#search_box button {
+	/*background:-moz-linear-gradient(top, #453e26, #000);
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#453e26), to(#000));*/
+	background-color:gray;
+	border:1px solid gray;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	
+	cursor:pointer;
+	height:40px; 
+	position:absolute; 
+	right:-1px; 
+	top:0px; 
+	width:45px;
+}
+#div1
+{
+	float:left;
+	margin-right:10px;
+}
+#div2
+{
+	margin-top:10px;
+	float:left;
+}
+#div3
+{
+	
+	float:left;
+	margin-top:-35px;
+	margin-left:100px;
+}
+#div3 #button1  {
+	box-shadow: #737373 0px 2px 2px;
+	width:290px;
+	line-height:15px;
+	font-family:  Microsoft JhengHei ;
+	margin:0 0px 10px 45px;
+	text-align:center;
+	border:1px solid #999999;
+	padding:5px 2px ;
+	background:#999999;
+	color: white;		
+	font-weight:bold;
+	border-radius:2px;
+	cursor: pointer;
+	/*top:130px;
+	left:75%;*/
+}
+#div3 h1{
+	font-family:  Microsoft JhengHei ;
+	font-size:18pt;
+	color:white;
+	text-shadow: 3px 3px #808080;
+}
+#div3 small{
+	font-family:  Microsoft JhengHei ;
+	font-size:11pt;
+	color:white;
+	text-shadow:none;
+}
+#page-bar{
+	margin-left:28%;
+	color: #666699;
+	font-weight: bold;	
+}
+#page-bar a{
+	color: #666699;
+}
+#page-bar li {
+	float: left;
+	padding:10px 10px ;
+	list-style-type: none;
+	border:1px solid #cccccc;
+}
+#page-bar #thisSelect{
+	background-color:#666699;	
+}
+#page-bar #thisSelect a{
+	color:white;	
+}
+#this_footer{
+	width:100%;
+	clear:both;
+}
+/*#prices
+{
+	position:relative;
+	color:white;
+	z-index:101;
+	top:-28px;
+	left:-21px;
+	z-index:2;
+	border:1px solid #4d4d4d;
+	width:100px;
+	height:40px;
+	background: #4d4d4d;
+	text-align:center;
+	vertical-align:middle;
+	line-height:40px;
+}
+#pic 
+{
+	width:90%;
+	height:90%;
+	margin-left:20px;
+	margin-bottom:-20px;
+}
+#pic img
+{
+	width:230px;
+	height:220px;
+	z-index:1;
+	border:1px solid #e6e6e6;
+}
+
+#wrapper #ContentContainer #TabbedPanels1 .TabbedPanelsContentGroup .TabbedPanelsContent.TabbedPanelsContentVisible h1 {
+	color:#293d3d;
+}
+#wrapper #ContentContainer #TabbedPanels1 .TabbedPanelsContentGroup .TabbedPanelsContent.TabbedPanelsContentVisible table tr td table tr th div {
+	color: #39F;
+}
+#image
+{
+	background-color:white;
+}
+#TableContent 
+{
+	background-color: #f2f2f2;
+	background-color:red;改格子的线的背景色
+	border: 2px solid #85adad;
+	width: 280px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	word-wrap: break-word;
+	float: left;
+	margin: 5px 5px;
+}
+#TableContent tr
+{
+	padding: 0;
+	margin: 0 auto;
+	height: 100px;
+	width: 70px;
+}
+#Block
+{
+	border:1px solid black;
+}
+h2{
+	color:#f0f5f5;
+	line-height: 20px;
+}
+#information
+{
+	line-height: 12px;
+	text-align: left;
+	padding-left: 5px;
+	background-color: #85adad;
+	color: white;
+}
+#selfie{
+	max-height: 90px;
+	max-width: 60px;
+
+	}
+#ThisA{
+	color: #FFF;
+	}
+.grid_container {
+  width: 100%;
+	}
+.grid_container .column{
+	visibility:hidden;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	}
+.loaderSymbol {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  background: url(../img/loader.gif);
+  behavior: url(PIE.htc);
+  z-index:100;
+}*/

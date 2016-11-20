@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* ------- base ------- */
+body{
+	background: #FFF;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #FFF;
+}
+h1,h2,p,span,li {
+  font-family: 'Roboto Condensed', Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  
+}
+body, ul, li, div {
+	margin: 0;
+	padding: 0;
+	color:black;
+}
+
+
+a {
+	text-decoration:none;
+}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+#wrapper
+{
+	min-width: 1200px;
+	overflow:visible;
+	background-color:#f2f2f2;
+}
+.inner {
+  position: relative;
+  background-color:white;
+  width: 800px;
+  float:left;
+  border:1px solid #CFCFCF;
+  border-radius:10px;
+  
+}
+
+
+.articlePost {
+  padding: 3% 0;
+  margin: 0 3%;
+  padding-bottom: 2em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #b3b3b3;
+  overflow: hidden;
+}
+.articlepost .entry-pic {
+  float: left;
+  width: 14%;
+  height:18%;
+  /*border:1px solid black;*/
+}
+
+.entry-contentContainer
+{
+	float: left;
+	width: 50%;
+	/*border:1px solid black;*/
+	margin-left:80px;
+	line-height:15px;
+	
+	margin-top:-25px;
+}
+.entry-detail p{
+	line-height:20px;
+}
+.entry-contentContainer p
+{
+	font-family:Microsoft JhengHei ;
+	
+}
+.entry-contentContainer .entry-title{
+	margin-left:0px;
+	height:30px;
+}
+
+.entry-pic img{width:180px ;height:180px;}
+.read_the_rest a.btn {
+
+  display: block;
+  width: 150px;
+  text-align:center;
+ 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right:10px;
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  background-color: white;
+  color:#262626;
+}
+a.btn:hover{
+	background-color: #c2d6d6;
+}
+.entry-title{
+	/*border:1px solid black;*/
+	color:#527a7a;
+	line-height:30px;
+}
+
+.read_the_rest
+{
+	width:20%;
+	margin-right:10px;
+	float:right;
+	/*border:1px solid black;*/
+	padding-top:30px;
+}
+#ContentContainer{
+	margin-bottom:50px;
+	
+}
+#this_footer{
+	width:100%;
+	position:relative;
+	height:180px;
+}
