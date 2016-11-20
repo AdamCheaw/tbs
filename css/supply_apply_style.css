@@ -1,0 +1,247 @@
+body,h1,h2,p,span,li {
+  font-family: 'Roboto Condensed', Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+body{
+	margin:0;
+}
+#wrapper{
+	min-width:1200px;
+	overflow:visible;
+	background-color:#e7ecea;
+}
+#TPTG{
+	float: left;
+	margin-bottom:10px;
+}
+#TPT{
+	width: 100px;
+}
+fieldset{
+	border:1px solid #d9d9d9;
+	border-radius:10px;
+	margin-top:20px;
+	margin-bottom:50px;
+	width:750px;
+	float:left;
+	background-color:white;
+	font-family:  Microsoft JhengHei ;
+	box-shadow:0 5px 10px rgba(0,0,5,.25);
+}
+fieldset hr{
+	margin-top:-10px;
+	background-color: #d9d9d9;
+	border:1px solid #d9d9d9;
+	height: 1px;
+}
+.content-wrap .question
+{
+	float:right;
+	width:400px;
+	padding:0 15px;
+	font-family:  Microsoft JhengHei ;
+	box-shadow:0 5px 10px rgba(0,0,5,.25);
+	background-color:white;
+	border:1px solid #d9d9d9;
+	border-radius:10px;
+	margin-top:20px;
+}
+.content-wrap .question h1{
+	font-weight:bold;
+	font-family:  Microsoft JhengHei ;
+	color:#3d5c5c;
+}
+
+.content-wrap .question li
+{
+	text-align:left;
+	font-family:  Microsoft JhengHei ;
+	line-height:30px;
+	color:#808080;
+	font-weight:800;
+}
+
+.ThisTable{
+	width:100%;
+	
+}
+.ThisTable2{
+	width:50%;
+	margin:auto;
+}
+.ThisTable3{
+	width:75%;
+	margin:auto;
+}
+.ThisTable4{
+	width:50%;
+	margin:auto;
+}
+.ThisH1{
+	font-size:25pt;
+	color:#3d5c5c;
+	margin-left:0px;
+	font-weight:bold;
+}
+.formRight{
+	padding:5px;
+	text-align:left;
+	
+}
+.formLeft{
+	padding:5px;
+	font-size:15pt;
+	vertical-align:text-top;
+	text-align:right;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-right:15px;
+	color:#595959;
+	width:300px;
+}
+.formCenter{
+	text-align:center;
+	font-size:15pt;
+	font-family:  Microsoft JhengHei ;	
+	font-weight:bold;
+	color:#595959;
+}
+.inputText{
+	border:1px solid darkgray;
+	font-size:12pt;
+	border-radius:5px;
+	height:25px;
+	width:250px;
+}
+.inputSelect{
+	border:1px solid darkgray;
+	font-size:12pt;
+	border-radius:2px;
+	height:30px;
+	width:100px;
+	text-align:center;
+	vertical-align:middle;
+	margin-left:10px;
+	font-family:  Microsoft JhengHei ;	
+}
+.inputNumber{
+	border:1px solid darkgray;
+	font-size:12pt;
+	border-radius:5px;
+	height:30px;
+	width:100px;
+	text-align:center;
+	margin-left:10px;
+}
+.inputTextArea{
+	border:1px solid darkgray;
+	font-size:12pt;
+	border-radius:2px;
+	height:30px;
+	width:250px;
+	margin-left:10px;
+}
+.inputDate{
+	border:1px solid darkgray;
+	font-size:12pt;
+	border-radius:2px;
+	height:30px;
+	width:150px;
+	margin-left:10px;
+	font-family:  Microsoft JhengHei ;
+}
+.inputTime{
+	border:1px solid darkgray;
+	font-size:12pt;
+	border-radius:2px;
+	height:30px;
+	width:120px;
+}
+.inputDatetime
+{
+	border:1px solid darkgray;
+	font-size:12pt;
+	border-radius:2px;
+	height:35px;
+	width:150px;
+	margin-left:10px;
+	font-family:  Microsoft JhengHei ;
+}
+.inputRadio
+{
+	margin-left:10px;
+}
+.inputRadio .inputTextArea
+{
+	
+}
+#inputFile{
+	font-size:15pt;
+	
+	width:	250px;
+	text-align:center;
+	margin: 0 0 0 10px;
+	font-family:  Microsoft JhengHei ;
+	border-radius: 5px;
+	border: 1px solid #b3b3b3;
+	background-color: white;
+	color:#262626;
+}
+#fitting_yes
+{
+	margin-bottom:-7px;
+}
+#mid_yes
+{
+	margin-left:10px;
+	margin-bottom:-7px;
+}
+#fac_oth
+{
+	margin-left:10px;
+	margin-bottom:-7px;
+}
+#trans_oth, #advise_yes, .inputDatetime, #public_oth, #fac_oth, #mid_yes{
+	border:1px solid darkgray;
+	font-size:12pt;
+	border-radius:2px;
+	height:30px;
+	width:250px;
+}
+
+.buttonType{
+	margin-top:5px;
+	border:1px solid #75a3a3;
+	background:#75a3a3;
+	color:white;
+	width:100px;
+	height:45px;
+	font-size:15pt;
+	border-radius:5px;
+	width:250px;
+	margin-left:218px;
+	font-family:  Microsoft JhengHei ;
+	cursor:pointer;
+}
+#thisA{
+	height:50px;	
+}
+#thisA a{
+	color:#75a3a3;
+}
+#thisA a:hover{
+	border-bottom:1px solid #75a3a3;
+	color:#c2d6d6;
+}
+.BTN{
+	margin-left:15%;	
+}
+#ThisLoginForm{
+	padding-top:10px;
+	padding-left:20%;
+	float:left;
+}
+#this_footer{
+	width:100%;
+	position:relative;
+	height:180px;
+}

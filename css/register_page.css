@@ -1,0 +1,148 @@
+body{
+	font-family:  Microsoft JhengHei ;
+	margin: 0 0;	
+}
+a {
+	text-decoration:none;
+}
+#wrapper{
+	min-width:900px;
+	overflow:auto;
+}
+#header {
+	height: 80px;
+	background-color: #527a7a;
+}
+#header-inner {
+	padding-top:5px;
+	width: 70%;
+	margin: 0 auto;
+}
+#logo {
+	float: left ;
+}
+#content{
+	width:50%;
+	margin:20px auto;
+	max-width:900px;	
+}
+#reset-form{
+	border:1px solid #b3b3b3;
+	border-radius:20px;
+	font-size:20px;	
+	margin-top:30px;
+	padding:30px 50px 50px 50px;
+	line-height:25px;
+	font-weight:bold;
+	border-left:50px solid #75a3a3;
+	border-right:50px solid #75a3a3;
+}
+#regSuccess{
+	border:1px solid #b3b3b3;
+	border-radius:20px;
+	font-size:20px;	
+	margin-top:30px;
+	padding:30px 50px;
+	height:auto;
+	line-height:25px;
+	font-weight:bold;
+	border-radius:5px;
+}
+#regSuccess h1{
+	text-align:center;
+	color:black;
+}
+#regSuccess p
+{
+	text-align:left;
+	color:#404040;
+	font-size:18px;
+}
+p #name{
+	color:#666699;
+}
+#regSuccess li
+{
+	list-style-type:decimal;
+	color:black;
+	font-size:15px;
+}
+#thisBtn
+{
+	
+	text-align:right;
+	
+}
+#btn
+{
+	border:1px solid #b3b3b3;
+	border-radius:5px;
+	background-color:white;
+	padding:8px;
+	font-size:20px;
+	
+}
+#thisBtn a
+{
+	font-family:  Microsoft JhengHei ;
+	color:#404040;
+}
+#thisBtn a:hover{
+	color:#cccccc;
+}
+fieldset{
+	margin:20px 0 20px 0;
+	border:1px solid #b3b3b3;
+	border-radius:20px;
+}
+fieldset h1{
+	text-align:center;	
+}
+fieldset hr{
+	height:5px;
+	background-color:#75a3a3;
+}
+#regFormTable{
+	margin-left:25%;
+}
+#regFormTable #error{
+	margin-left:10px;
+	color:red;
+}
+.inputText{
+	float:left;
+	border-radius: 5px;
+	height:20px;
+	width:250px;
+	margin-left:10px;
+	line-height:50px;
+	margin-bottom:10px;
+}
+.inputDate{
+	float:left;
+	border-radius: 5px;
+	height:25px;
+	width:150px;
+	margin-left:10px;
+}
+#thisA{
+	height:50px;	
+}
+#thisA a{
+	color:#75a3a3;
+}
+#thisA a:hover{
+	border-bottom:1px solid #75a3a3;
+	color:blue;
+}
+.button{
+	margin-top:5px;
+	margin-left:70px;
+	font-size:15pt;
+	background:#75a3a3;
+	color:white;
+	width:100px;
+	height:45px;
+	border-radius:5px;
+	width:200px;
+}
